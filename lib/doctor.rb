@@ -23,5 +23,6 @@ class Doctor
 
   def patients
     self.appointments.map {|appt| appt.patient}
-  endlea
+  end
+  
 end
