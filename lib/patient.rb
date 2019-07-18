@@ -25,7 +25,8 @@ class Patient
     self.appointments.map {
       appt.doctor
     }
-    
+  end
+
   end
 
 
